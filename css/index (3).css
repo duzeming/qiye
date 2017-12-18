@@ -1,0 +1,722 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-weight: normal;
+	-webkit-user-select:none;
+	outline: none;
+	box-sizing: border-box;
+			
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+img{
+	border:0;
+	display: block;
+}
+input{
+	width: 100%;
+	height: 100%;
+	border:none;
+}
+.box{
+	width: 100%;
+	height: 82px;
+	background-color: #DA3426;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background: rgba(1,143,207,0.0);
+    transition: all 1s ease-out;
+}
+.box:hover{
+	background: rgba(1,43,207,0.2);
+    transition: all 1s ease-out;
+}
+.box .top{
+	width: 1200px;
+	height: 82px;
+	/* background-color: red; */
+	margin: 0 auto;
+
+}
+.box .top .top1{
+	width: 185px;
+	height: 82px;
+	float: left;
+	/* background-color: tan; */
+}
+.box .top .top1 a{
+	font-size: 28px;
+	color: #284381;
+	line-height: 82px;
+	margin-left: 35px;
+}
+.box .top .top1 a:hover{
+	color: #FFF;
+}
+.box .top .top2{
+	width: 538px;
+	height: 82px;
+	/* background-color: #000; */
+	float: left;
+	margin-left: 150px;
+	color: rgba(255,255,255,0.60);
+    transition: all 0.8s ease-out;
+}
+.box .top .top2 .non1{
+	width: 110px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+	display: block;
+}
+
+.box .top .top2 .non1 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non1 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+.box .top .top2 .non2{
+	width: 180px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.box .top .top2 .non2 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non2 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+.box .top .top2 .non3{
+	width: 138px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.box .top .top2 .non3 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non3 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+.box .top .top2 .non4{
+	width: 110px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.box .top .top2 .non4 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non4 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+.box .top .top3{
+	width: 136px;
+	height: 57.8px;
+	float: right;
+	/* background-color: blue; */	
+}
+.box .top .top3 .nou1{
+	width: 136px;
+	height: 16px;
+	/* background-color: yellow; */
+	float: left;
+	margin-top: 10px;
+}
+.box .top .top3 .nou1 a{
+	color: #C7D0DD;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.box .top .top3 .nou1 a:nth-child(2){
+	margin-left: 15px;
+}
+.box .top .top3 .nou1 a:hover{
+	color: #FFF;
+}
+.box .top .top3 .nou2{
+	width: 102px;
+	height: 16.8px;
+	/* background-color: tan; */
+	float: left;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 18px;
+}
+.box .top .top3 .nou2 a{
+	font-size: 12px;
+	margin-left: 5px;
+	color: #C7D0DD;
+}
+.box .top .top3 .nou2 a:hover{
+	color: #FFF;
+}
+.box .top .top3 .nou2 span{
+	color: #C7D0DD;
+	margin-left: 5px;
+}
+.bon{
+	width: auto;
+	height: 400px;
+	background-image: url('../img/z1.jpg');
+}
+.boc{
+	width: 100%;
+	height: 162.47px;
+	/* background-color: tan; */
+}
+.boc .non1{
+	width: auto;
+	height: 73px;
+	/* background-color: yellow; */
+}
+.boc .non1 img{
+	width: 140px;
+	height: 53px;
+	margin-top: 70px;
+	text-align: center;
+	margin-left: 700px;
+}
+.boc .non2{
+	width: auto;
+	height: 89.47px;
+	/* background-color: #000; */
+}
+.boc .non2 span{
+	font-size: 30px;
+	text-align: center;
+	margin-left: 700px;
+	color: #555555;
+}
+.bok{
+	width: 828px;
+	height: 292px;
+	/* background-color: tan; */
+	margin: 0 auto;
+}
+.bok .muo1{
+	width: 372px;
+	height: 222px;
+	/* background-color: red; */
+	float: left;
+	margin-left: 20px;
+}
+.bok .muo1 img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.bok .muo1 .nun{
+	width: 372px;
+	height: 32px;
+	/* background-color: #000; */
+	position: absolute;
+	top: 820px;
+}
+.bok .muo1 .nun li{
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+}
+.bok .muo2{
+	width: 372px;
+	height: 222px;
+	/* background-color: red; */
+	float: right;
+	margin-right: 20px;	
+}
+.bok .muo2 img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.bok .muo2 .nun{
+	width: 372px;
+	height: 32px;
+	/* background-color: #000; */
+	position: absolute;
+	top: 820px;
+}
+.bok .muo2 .nun li{
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+}
+.bos{
+	width: 1200px;
+	height: 29.87px;
+	margin: 0 auto;
+}
+.bos span{
+	font-size: 30px;
+	color: #018FCF;
+	margin-left: 540px;
+}
+.bor{
+	width: 1200px;
+	height: 300.2px;
+	/* background-color: #000; */
+	margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 50px;
+}
+.bor .bup{
+	width: 1016px;
+	height: 200px;
+	/* background-color: tan; */
+	margin: 0 auto;
+}
+.bor .bup .bup1{
+	width: 248px;
+	height: 200px;
+	background-color: #F6F6F6;
+	/* margin: 0 3px; */
+	float: left;
+}
+.bor .bup .bup1 img{
+	width: auto;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.bor .bup .bup1 li{
+	font-size: 17px;
+	color: #000000;
+	text-align: center;
+	margin-top: 20px;
+}
+.bor .bup .bup2{
+	width: 248px;
+	height: 200px;
+	background-color: #F6F6F6;
+	margin-left: 8px;
+	float: left;
+}
+.bor .bup .bup2 img{
+	width: auto;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.bor .bup .bup2 li{
+	font-size: 17px;
+	color: #000000;
+	text-align: center;
+	margin-top: 30px;
+}
+.bor .bup .bup3{
+	width: 248px;
+	height: 200px;
+	background-color: #F6F6F6;
+	margin-left: 8px;
+	float: left;
+}
+.bor .bup .bup3 img{
+	width: auto;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+.bor .bup .bup3 li{
+	font-size: 17px;
+	color: #000000;
+	text-align: center;
+	margin-top: 10px;
+}
+.bor .bup .bup4{
+	width: 248px;
+	height: 200px;
+	background-color: #F6F6F6;
+	float: right;
+}
+.bor .bup .bup4 img{
+	width: auto;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.bor .bup .bup4 li{
+	font-size: 17px;
+	color: #000000;
+	text-align: center;
+	margin-top: 20px;
+}
+.bog{
+	width: 100%;
+	height: 60px;
+	background-color: #0D6CBD;
+	margin-top: 80px;
+}
+.bog .bog1{
+	width: 1200px;
+	height: 60px;
+	background-color: #0D6CBD;
+	margin: 0 auto;
+}
+.bog .bog1 .nuo1{
+	width: 231px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	/* padding-top: 20px; */
+}
+.bog .bog1 .nuo1 span{
+	font-size: 14px;
+	color: #fff;
+	margin-top: 20px;
+}
+.bog .bog1 .nuo2{
+	width: 196.76px;
+	height: 35px;
+	line-height: 60px;
+	float: right;
+}
+.bog .bog1 .nuo2 span{
+	font-size: 14px;
+	color: #fff;
+}
+.boh{
+	width: 1200px;
+	height: 212px;
+	/* background-color: tan; */
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.boh .boh1{
+	width: 874.4px;
+	height: 209px;
+	/* background-color: #000; */
+	float: left;
+}
+.boh .boh1 .non1{
+	width: 228px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non1 .buo1{
+	width: 228px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non1 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non1 .buo2{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non1 .buo3{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non1 .buo4{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo4 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non1 .buo5{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo5 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non2{
+	width: 228px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non2 .buo1{
+	width: 228px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non2 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non2 .buo2{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non2 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non2 .buo3{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non2 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3{
+	width: 228px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non3 .buo1{
+	width: 228px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non3 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non3 .buo2{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo3{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo4{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo4 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo5{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo5 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo6{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo6 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo7{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo7 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo8{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo8 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4{
+	width: 179.2px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non4 .buo1{
+	width: 179.2px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non4 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non4 .buo2{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo3{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo4{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo4 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo5{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo5 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo6{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo6 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo7{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo7 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo8{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo8 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh2{
+	width: 325.6px;
+	height: 209px;
+	float: right;
+	/* background-color: #000; */	
+}
+.boh .boh2 img{
+	width: 245px;
+	height: 209px;
+	margin: 0 auto;
+	margin-top: 
+}
+.bof{
+	width: 100%;
+	height: 72px;
+	margin-top: 20px;
+}
+.bof span{
+	font-size: 13px;
+	line-height: 72px;
+	margin-left: 600px;
+}

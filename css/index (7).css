@@ -1,0 +1,673 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-weight: normal;
+	-webkit-user-select:none;
+	outline: none;
+	box-sizing: border-box;
+			
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+img{
+	border:0;
+	display: block;
+}
+input{
+	width: 100%;
+	height: 100%;
+	border:none;
+}
+.box{
+	width: 100%;
+	height: 82px;
+	background-color: #DA3426;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background: rgba(1,143,207,0.0);
+    transition: all 1s ease-out;
+}
+.box:hover{
+	background: rgba(1,43,207,0.2);
+    transition: all 1s ease-out;
+}
+.box .top{
+	width: 1200px;
+	height: 82px;
+	/* background-color: red; */
+	margin: 0 auto;
+
+}
+.box .top .top1{
+	width: 185px;
+	height: 82px;
+	float: left;
+	/* background-color: tan; */
+}
+.box .top .top1 a{
+	font-size: 28px;
+	color: #284381;
+	line-height: 82px;
+	margin-left: 35px;
+}
+.box .top .top1 a:hover{
+	color: #FFF;
+}
+.box .top .top2{
+	width: 538px;
+	height: 82px;
+	/* background-color: #000; */
+	float: left;
+	margin-left: 150px;
+	color: rgba(255,255,255,0.60);
+    transition: all 0.8s ease-out;
+}
+.box .top .top2 .non1{
+	width: 110px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+	display: block;
+}
+
+.box .top .top2 .non1 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non1 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+.box .top .top2 .non2{
+	width: 180px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.box .top .top2 .non2 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non2 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+.box .top .top2 .non3{
+	width: 138px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.box .top .top2 .non3 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non3 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+.box .top .top2 .non4{
+	width: 110px;
+	height: 82px;
+	float: left;
+	line-height: 82px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.box .top .top2 .non4 a{
+	color: #C7D0DD;
+}
+.box .top .top2 .non4 a:hover{
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+.box .top .top3{
+	width: 136px;
+	height: 57.8px;
+	float: right;
+	/* background-color: blue; */	
+}
+.box .top .top3 .nou1{
+	width: 136px;
+	height: 16px;
+	/* background-color: yellow; */
+	float: left;
+	margin-top: 10px;
+}
+.box .top .top3 .nou1 a{
+	color: #C7D0DD;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.box .top .top3 .nou1 a:nth-child(2){
+	margin-left: 15px;
+}
+.box .top .top3 .nou1 a:hover{
+	color: #FFF;
+}
+.box .top .top3 .nou2{
+	width: 102px;
+	height: 16.8px;
+	/* background-color: tan; */
+	float: left;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 18px;
+}
+.box .top .top3 .nou2 a{
+	font-size: 12px;
+	margin-left: 5px;
+	color: #C7D0DD;
+}
+.box .top .top3 .nou2 a:hover{
+	color: #FFF;
+}
+.box .top .top3 .nou2 span{
+	color: #C7D0DD;
+	margin-left: 5px;
+}
+.bon{
+	width: auto;
+	height: 400px;
+	background-image: url('../img/s1.jpg');
+}
+.bos{
+	width: 100%;
+	height: 41px;
+	background-color: #F3F3F3;
+	border-bottom: 1px solid #CCC;
+}
+.bos .non{
+	width: 799.17px;
+	height: 41px;
+	/* background-color: tan; */
+	margin: 0 auto;
+	line-height: 41px;
+}
+.bos .non .con{
+	width: 85.98px;
+	height: 29px;
+	float: left;
+	margin-left: 5px;
+	/* margin: 0 auto; */
+}
+.bos .non .con li{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 12px;
+	line-height: 41px;
+}
+.bos .non span{
+	line-height: 41px;
+	float: left;
+	margin-right: 5px;
+	color: #666666;
+	/* margin-left: -2px; */
+}
+.bos .non span:nth-child(6){
+	margin-left: 6px;
+}
+.bos .non .con2{
+	width: 85.98px;
+	height: 29px;
+	float: left;
+	margin-left: 3px;
+	border-radius: 15px;
+	background-color: #0D6CBD;
+	line-height: 41px;
+	margin-top: 8px;
+}
+.bos .non .con2 li{
+	line-height: 41px;
+	margin-top: -5px;
+	margin-left: 10px;
+	color: #FFF;
+}
+.boa{
+	width: 1200px;
+	height: 470.07px;
+	/* background-color: tan; */
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+.boa .non{
+	width: 1140px;
+	height: 410.07px;
+	/* background-color: yellow; */
+	margin: 0 auto;
+}
+.boa .non .non1{
+	width: 1140px;
+	height: 76.47px;
+	/* background-color: #000; */
+	border-bottom: 1px solid #CCC;
+}
+.boa .non .non1 span{
+	font-size: 24px;
+	color: #018FCF;
+	margin-left: 360px;
+}
+
+
+
+
+
+
+.boa .non .non2{
+	width: 1140px;
+	height: 333.6px;
+	/* background-color: yellow; */
+	padding-top: 25.6px;
+}
+.boa .non .non2 .vov1{
+	width: 1140px;
+	height: 25.6px;
+	/* background-color: #000; */
+}
+.boa .non .non2 .vov1 span{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 50px;
+}
+.boa .non .non2 .vov2{
+	width: 1140px;
+	height: 51.2px;
+	/* background-color: #000; */
+	margin-top: 25.6px;
+}
+.boa .non .non2 .vov2 span{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 50px;
+}
+.boa .non .non2 .vov3{
+	width: 1140px;
+	height: 51.2px;
+	/* background-color: #000; */
+	margin-top: 25.6px;
+}
+.boa .non .non2 .vov3 span{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 50px;
+}
+.boa .non .non2 .vov4{
+	width: 1140px;
+	height: 51.2px;
+	/* background-color: #000; */
+	margin-top: 25.6px;
+}
+.boa .non .non2 .vov4 span{
+	font-size: 14px;
+	color: #666666;
+	margin-left: 50px;
+}
+.bog{
+	width: 100%;
+	height: 60px;
+	background-color: #0D6CBD;
+	margin-top: 60px;
+}
+.bog .bog1{
+	width: 1200px;
+	height: 60px;
+	background-color: #0D6CBD;
+	margin: 0 auto;
+}
+.bog .bog1 .nuo1{
+	width: 231px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	/* padding-top: 20px; */
+}
+.bog .bog1 .nuo1 span{
+	font-size: 14px;
+	color: #fff;
+	margin-top: 20px;
+}
+.bog .bog1 .nuo2{
+	width: 196.76px;
+	height: 35px;
+	line-height: 60px;
+	float: right;
+}
+.bog .bog1 .nuo2 span{
+	font-size: 14px;
+	color: #fff;
+}
+.boh{
+	width: 1200px;
+	height: 212px;
+	/* background-color: tan; */
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.boh .boh1{
+	width: 874.4px;
+	height: 209px;
+	/* background-color: #000; */
+	float: left;
+}
+.boh .boh1 .non1{
+	width: 228px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non1 .buo1{
+	width: 228px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non1 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non1 .buo2{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non1 .buo3{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non1 .buo4{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo4 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non1 .buo5{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non1 .buo5 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non2{
+	width: 228px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non2 .buo1{
+	width: 228px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non2 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non2 .buo2{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non2 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non2 .buo3{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non2 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3{
+	width: 228px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non3 .buo1{
+	width: 228px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non3 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non3 .buo2{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo3{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo4{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo4 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo5{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo5 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo6{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo6 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo7{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo7 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non3 .buo8{
+	width: 198px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non3 .buo8 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4{
+	width: 179.2px;
+	height: 208.8px;
+	float: left;
+}
+.boh .boh1 .non4 .buo1{
+	width: 179.2px;
+	height: 40px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.boh .boh1 .non4 .buo1 span{
+	font-size: 16px;
+	color: #333333;
+	line-height: 40px;
+}
+.boh .boh1 .non4 .buo2{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo2 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo3{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo3 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo4{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo4 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo5{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo5 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo6{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo6 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo7{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo7 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh1 .non4 .buo8{
+	width: 149.2px;
+	height: 24px;
+/* 	margin-top: 5px; */
+	margin-left: 24px;
+}
+.boh .boh1 .non4 .buo8 a{
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+}
+.boh .boh2{
+	width: 325.6px;
+	height: 209px;
+	float: right;
+	/* background-color: #000; */	
+}
+.boh .boh2 img{
+	width: 245px;
+	height: 209px;
+	margin: 0 auto;
+	margin-top: 
+}
+.bof{
+	width: 100%;
+	height: 72px;
+	margin-top: 20px;
+}
+.bof span{
+	font-size: 13px;
+	line-height: 72px;
+	margin-left: 600px;
+}
